@@ -6,6 +6,7 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 Names: Max Vanderbeek, Greg Drapeau
 **Changes to code**
-
+Added <String> to the beggining of the contruction of the combobox object to fix it.
 
 **What caused it to stop working?**
+In a newer version of Java, they require you to define the type that you are going to use inside the combobox. All you need to do is cast the type so that the variable is checked before it gets inputted into the combobox.
